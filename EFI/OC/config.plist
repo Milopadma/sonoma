@@ -1288,7 +1288,7 @@
 		<key>Output</key>
 		<dict>
 			<key>InitialMode</key>
-			<string></string>
+			<string>Auto</string>
 			<key>GopBurstMode</key>
 			<false/>
 			<key>ConsoleFont</key>

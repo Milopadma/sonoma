@@ -151,6 +151,8 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>FixupAppleEfiImages</key>
+			<false/>
 			<key>FadtEnableReset</key>
 			<false/>
 			<key>NormalizeHeaders</key>
@@ -845,6 +847,10 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>InstanceIdentifier</key>
+			<string></string>
+			<key>DisableIoMapperMapping</key>
+			<false/>
 			<key>AppleCpuPmCfgLock</key>
 			<false/>
 			<key>AppleXcpmCfgLock</key>
@@ -1279,6 +1285,12 @@
 		</dict>
 		<key>Output</key>
 		<dict>
+			<key>InitialMode</key>
+			<string></string>
+			<key>GopBurstMode</key>
+			<false/>
+			<key>ConsoleFont</key>
+			<string></string>
 			<key>ClearScreenOnModeSwitch</key>
 			<false/>
 			<key>ConsoleMode</key>
@@ -1312,6 +1324,8 @@
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
+			<key>PciIo</key>
+			<false/>
 			<key>AppleAudio</key>
 			<false/>
 			<key>AppleBootPolicy</key>
@@ -1351,6 +1365,10 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
+			<key>ShimRetainProtocol</key>
+			<false/>
+			<key>ResizeUsePciRbIo</key>
+			<false/>
 			<key>ActivateHpetSupport</key>
 			<false/>
 			<key>DisableSecurityPolicy</key>

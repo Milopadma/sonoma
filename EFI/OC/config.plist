@@ -1135,7 +1135,7 @@
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
-			<false/>
+			<true/>
 			<key>MLB</key>
 			<string>C02052101QXLNV9JC</string>
 			<key>MaxBIOSVersion</key>

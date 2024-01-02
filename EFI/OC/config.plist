@@ -151,8 +151,6 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
-			<key>FixupAppleEfiImages</key>
-			<false/>
 			<key>FadtEnableReset</key>
 			<false/>
 			<key>NormalizeHeaders</key>
@@ -217,6 +215,8 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>FixupAppleEfiImages</key>
+			<false/>
 			<key>AllowRelocationBlock</key>
 			<false/>
 			<key>AvoidRuntimeDefrag</key>
@@ -847,8 +847,6 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
-			<key>InstanceIdentifier</key>
-			<string></string>
 			<key>DisableIoMapperMapping</key>
 			<false/>
 			<key>AppleCpuPmCfgLock</key>
@@ -914,6 +912,10 @@
 		<array/>
 		<key>Boot</key>
 		<dict>
+			<key>InstanceIdentifier</key>
+			<string></string>
+			<key>HibernateSkipsPicker</key>
+			<false/>
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
 			<key>HibernateMode</key>
